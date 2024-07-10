@@ -1,0 +1,48 @@
+*{
+  background-color: wheat;
+  margin: 0%;
+  padding: 0%;
+
+}
+.container{
+  width: 80%;
+  min-height: 100vh;
+  background-color: black;
+  margin: auto;
+  padding: 100px 50px;
+  box-sizing: border-box;
+}
+.container h1{
+  color: wheat;
+  background-color: black;
+  text-align:left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paras{
+  background-color: rgb(225, 180, 102);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 1vmax;
+}
+button{
+  background-color: wheat;
+  border: none;
+  padding: 20px;
+  font:100 1.3rem Georgia;
+  cursor:pointer;
+  transition: 0.5s background-color;
+}
+button:hover{
+  background-color: rgb(209, 170, 97);
+}
+#noOfWords{
+    background-color: rgb(236, 219, 191);
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid wheat;
+    outline: none;
+    font: 100 1.3rem sans-serif;
+
+}
